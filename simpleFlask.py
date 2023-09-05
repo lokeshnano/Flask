@@ -5,5 +5,5 @@ app = Flask(__name__)
 def home():
     return "welcome to vercel flask deployment"
 
-# if __name__ == "__main__":
-#     app.run( debug=True)
+if __name__ == "__main__":
+    app.run( debug=True)
