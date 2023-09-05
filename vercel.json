@@ -2,8 +2,8 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.py",
-            "use": "@lokeshnano/flask"
+            "src": "*.py"
+
         }
     ],
     "routes": [
