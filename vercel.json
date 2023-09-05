@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.py",
+            "use": "@lokeshnano/flask"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "simpleFlask.py"
+        }
+    ]
+  }
